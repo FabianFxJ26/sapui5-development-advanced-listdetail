@@ -1,12 +1,14 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "student01/com/sap/training/ux402/listdetail/ux402listdetail/controller/BaseController"
+
 ],
-function (Controller) {
-    "use strict";
+    /**
+     * @param {typeof sap.ui.core.mvc.Controller} Controller
+     */
+    function (Controller) {
+        "use strict";
 
-    return Controller.extend("student01.com.sap.training.ux402.listdetail.ux402listdetail.controller.DetailObjectNotFound", {
-        onInit: function () {
-
-        }
+        return Controller.extend("student01.com.sap.training.ux402.listdetail.ux402listdetail.controller.DetailObjectNotFound", {
+           
+        });
     });
-});
